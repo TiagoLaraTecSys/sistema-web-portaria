@@ -1,0 +1,32 @@
+{
+  "name": "sistema-portaria",
+  "version": "1.0.0",
+  "description": "Sistema para controle de acesso de cargas",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TiagoLaraTecSys/sistema-web-portaria.git"
+  },
+  "author": "Rafael Bortone, Tiago L Ribeiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TiagoLaraTecSys/sistema-web-portaria/issues"
+  },
+  "homepage": "https://github.com/TiagoLaraTecSys/sistema-web-portaria#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.14",
+    "gulp-babel": "^8.0.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.1.0"
+  }
+}

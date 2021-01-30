@@ -1,0 +1,66 @@
+header.header
+  .header__hintbar
+    p Acompanhe as melhores promoções disponíveis aqui na Maeztra.
+  .header__wrapper
+    .container
+      .header__iconmenu.mobile
+        include ../../icons/icon-menu.pug
+      .header__logo
+        img(src="../../images/logo.png", alt="")
+      .header__autocomplete
+        .header__autocomplete--inputs
+          input(type="text")
+          .header__autocomplete--button
+            | buscar 
+      .header__access.desktop
+        .header__access--account
+          .header__access--icon
+            include ../../icons/icon-account.pug
+          a(href="") minha conta 
+        .header__access--wishlist
+          .header__access--icon
+            include ../../icons/icon-heart.pug
+          a(href="") minha lista
+        .header__access--minicart
+          .header__access--icon
+            include ../../icons/icon-sacola.pug
+          span meu carrinho
+      .header__icons.mobile
+        .header__icons--search
+          include ../../icons/icon-search.pug
+        .header__icons--sacola
+          include ../../icons/icon-sacola.pug
+
+
+  nav.header__menu
+    .header__menu--wrapper
+      ul.header__menu--links
+        li
+          a(href="") novidades
+        li
+          a(href="") vestidos
+        li
+          a(href="") roupas
+        li
+          a(href="") sapatos
+        li
+          a(href="") lingerie
+        li
+          a(href="") acessórios
+        li
+          a(href="") outlet
+      ul.header__access.mobile
+        li.header__access--account
+          a(href="")
+            .header__access--icon
+              include ../../icons/icon-account.pug
+            | minha conta 
+        
+        li.header__access--wishlist
+          a(href="") 
+            .header__access--icon
+              include ../../icons/icon-heart.pug
+            | minha lista
+    .header__menu--close
+
+
